@@ -1,0 +1,6 @@
+set terminal jpeg
+set output 'graph.jpg'
+# set yrange [0.7:0.9]
+set xlabel "Epoch"
+set ylabel "Accuracy"
+plot "bias-model" with linespoints

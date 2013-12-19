@@ -1,0 +1,6 @@
+set terminal jpeg
+set output 'graph.jpg'
+set yrange [0.7:1.0]
+set xlabel "Training set size (in thousands)"
+set ylabel "Accuracy"
+plot "weighted-majority-high-learning-rate" with linespoints, "weighted-majority-low-learning-rate" with linespoints
